@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: first.app
+        app: first-app
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
