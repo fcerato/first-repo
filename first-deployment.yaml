@@ -14,7 +14,8 @@ spec:
         app: first-app
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+        #      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: nginx
         name: firstapp
         ports:
         - containerPort: 80
